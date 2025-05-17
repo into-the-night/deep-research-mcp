@@ -1,14 +1,14 @@
 # Deep Research MCP
 
-This is a simple MCP server used to showcase MCP's integrative capabilites. It includes two tools: `generate_plan` and `execute_plan`.
+This is a sample MCP server used to showcase MCP's integrative capabilites. It includes two tools: `generate_plan` and `execute_plan`.
 
-## Uses 👾
+## Built with 🛠
 
 - FastMCP
 - LangChain
 - Groq
 
-## How to RUN 🏃🏻‍♂️
+## How to run 🏃🏻‍♂️
 
 1. Clone the repository:
    ```
@@ -74,3 +74,11 @@ This is a simple MCP server used to showcase MCP's integrative capabilites. It i
 3. Restart Claude Desktop
 
 Note: If you still can't see the server inside the app, make sure Claude gets completely restarted as it might still be running in system tray.
+
+## Author ✍
+
+Made with ♥ by [Abhay Shukla](https://github.com/into-the-night)
+
+## License 📜
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
