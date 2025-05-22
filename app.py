@@ -37,13 +37,11 @@ async def generate_plan(topic: str) -> Union[str, dict[str, Any]]:
         
         state = {
             "topic": topic,
+            "configurable": configurable
         }
 
-        # Pass thread_id to the checkpointer via the config parameter
-        config = {"configurable": configurable}
-        
-        # Use the wrapped state when invoking the graph
-        plan = planner(state, config)
+        # Use the wrapped state when invoking the tool
+        plan = planner(state)
         logger.debug(f"This is plan {plan}")
         return plan
     except Exception as e:
